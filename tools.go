@@ -97,7 +97,7 @@ func (t *Tools) UploadFiles(r *http.Request, uploadDir string, rename ...bool) (
 						}
 					}
 				} else {
-					allowed = false
+					allowed = true
 				}
 
 				if !allowed {
