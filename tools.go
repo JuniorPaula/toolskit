@@ -167,6 +167,7 @@ func (t *Tools) CreateDirIfNotExist(path string) error {
 	return nil
 }
 
+// Slugify is a (very) simple means of creating a slug from a string
 func (t *Tools) Slugify(s string) (string, error) {
 	if s == "" {
 		return "", errors.New("empty string, not permitted")
