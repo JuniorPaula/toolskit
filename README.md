@@ -1,4 +1,4 @@
-# Toolkit to upload files
+# Toolkit to upload files and used a JSON
 
 A simple example of how to upload a files in **Golang**.
 
