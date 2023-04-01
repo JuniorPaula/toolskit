@@ -17,3 +17,30 @@ The included tools are:
 ## Installation
 
 `go get -u github.com/JuniorPaula/upload-file-toolkit`
+
+## Tests
+```golang 
+go test -v .
+```
+
+`
+=== RUN   TestTools_RandomString
+--- PASS: TestTools_RandomString (0.00s)
+=== RUN   TestTools_UploadFiles
+--- PASS: TestTools_UploadFiles (0.36s)
+=== RUN   TestTools_UploadOneFile
+--- PASS: TestTools_UploadOneFile (0.14s)
+=== RUN   TestTools_CreateDirIfNotExist
+--- PASS: TestTools_CreateDirIfNotExist (0.00s)
+=== RUN   TestTools_Slugify
+--- PASS: TestTools_Slugify (0.00s)
+=== RUN   TestTools_DownloadStaticfile
+--- PASS: TestTools_DownloadStaticfile (0.01s)
+=== RUN   TestTools_ReadJSON
+--- PASS: TestTools_ReadJSON (0.00s)
+=== RUN   TestTools_WriteJSON
+--- PASS: TestTools_WriteJSON (0.00s)
+=== RUN   TestTools_ErrorJSON
+--- PASS: TestTools_ErrorJSON (0.00s)
+PASS
+`
