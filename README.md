@@ -23,7 +23,7 @@ The included tools are:
 go test -v .
 ```
 
-`
+```golang
 === RUN   TestTools_RandomString
 --- PASS: TestTools_RandomString (0.00s)
 === RUN   TestTools_UploadFiles
@@ -43,4 +43,4 @@ go test -v .
 === RUN   TestTools_ErrorJSON
 --- PASS: TestTools_ErrorJSON (0.00s)
 PASS
-`
+```
