@@ -4,9 +4,9 @@ A simple example of how to upload a files in **Golang**.
 
 The included tools are:
 
-- [ ] Read JSON
-- [ ] Write JSON
-- [ ] Produce a JSON encoded error response
+- [X] Read JSON
+- [X] Write JSON
+- [X] Produce a JSON encoded error response
 - [X] Upload a file to a specified directory
 - [X] Download a static file
 - [X] Get a random string of length n
