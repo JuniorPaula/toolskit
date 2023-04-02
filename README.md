@@ -10,7 +10,7 @@ The included tools are:
 - [X] Upload a file to a specified directory
 - [X] Download a static file
 - [X] Get a random string of length n
-- [ ] Post JSON to a remote service 
+- [X] Post JSON to a remote service 
 - [X] Create a directory, including all parent directories, if it does not already exist
 - [X] Create a URL safe slug from a string
 
@@ -24,12 +24,14 @@ go test -v .
 ```
 
 ```golang
+=== RUN   TestTools_PushJSONToRemote
+--- PASS: TestTools_PushJSONToRemote (0.00s)
 === RUN   TestTools_RandomString
 --- PASS: TestTools_RandomString (0.00s)
 === RUN   TestTools_UploadFiles
---- PASS: TestTools_UploadFiles (0.36s)
+--- PASS: TestTools_UploadFiles (0.37s)
 === RUN   TestTools_UploadOneFile
---- PASS: TestTools_UploadOneFile (0.14s)
+--- PASS: TestTools_UploadOneFile (0.15s)
 === RUN   TestTools_CreateDirIfNotExist
 --- PASS: TestTools_CreateDirIfNotExist (0.00s)
 === RUN   TestTools_Slugify
