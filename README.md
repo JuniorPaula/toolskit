@@ -1,6 +1,6 @@
-# Toolkit to upload files and used a JSON
+# Toolskit Packages
 
-A simple example of how to upload a files in **Golang**.
+A simple example of how to upload a files and manipulate JSON in **Golang**.
 
 The included tools are:
 
@@ -16,7 +16,7 @@ The included tools are:
 
 ## Installation
 
-`go get -u github.com/JuniorPaula/upload-file-toolkit`
+`go get -u github.com/JuniorPaula/toolskit`
 
 ## Tests
 ```golang 
